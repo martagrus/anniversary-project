@@ -1,21 +1,14 @@
 body {
     font-family: 'Special Elite', cursive;
     background-image: url("https://media.istockphoto.com/vectors/crumpled-paper-design-vector-background-illustration-vector-id471647020");
-    /* background-position: relative;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 .container {
     padding: 30px;
     margin: 30px;
     background-color: #fef7f7;
-    
 }
 
-/* nav{
-    background-image: url("https://media.istockphoto.com/vectors/crumpled-paper-design-vector-background-illustration-vector-id471647020");
-} */
 nav a {
     margin-left: 45px;
     margin-right: 45px;
@@ -23,9 +16,9 @@ nav a {
     padding-bottom: 20px;
     color: black;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
-  }
+}
 
 .nav-container {
     display: flex;
@@ -40,6 +33,7 @@ nav a {
     margin: 30px;
     background-color: #fef7f7;
 }
+
 h1 {
     display: flex;
     justify-content: center;
@@ -79,4 +73,5 @@ h2 {
 
 footer {
     float: right;
+    height: 50px;
 }
