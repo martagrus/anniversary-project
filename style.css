@@ -4,20 +4,23 @@ body {
 }
 
 .container {
-    padding: 30px;
-    margin: 30px;
+    width: 100%;
+    margin: 0 auto;
     background-color: #fef7f7;
 }
 
 nav a {
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     color: black;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
+}
+
+.nav-right {
+    display: none;
 }
 
 .nav-container {
@@ -29,29 +32,27 @@ nav a {
 }
   
 .home {
-    padding: 50px;
-    margin: 30px;
+    margin: 0 auto;
+    margin-bottom: 20px;
     background-color: #fef7f7;
+    text-align: center;
 }
 
 h1 {
     display: flex;
     justify-content: center;
-    font-size: 45px;
+    font-size: 30px;
     padding: 20px;
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 15px;
 }
 
 .gallery {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: auto;
     justify-content: center;
-    margin: 40px;
 }
 
 .gallery-0 {
@@ -59,7 +60,10 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    margin: 30px;
+}
+
+img {
+    height: 200px;;
 }
 
 .desc {
@@ -69,9 +73,69 @@ h2 {
     align-items: center;
     justify-content: center;
     margin: 10px;
+    font-size: 10px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color:black;
+    text-decoration: none;
 }
 
 footer {
-    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     height: 50px;
 }
+
+@media (min-width: 768px) {
+    .container {
+      width: 760px;
+    }
+
+    img {
+        height: 400px;
+    }
+
+@media (min-width: 996px) {
+    .container {
+        width: 960px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    nav a {
+        font-size: 25px;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    .nav-right {
+        display: flex;
+    }
+
+    .home {
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    img {
+        height: auto;
+        width: auto;
+    }
+
+    .desc {
+        font-size: 15px;
+    }
