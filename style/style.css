@@ -51,6 +51,10 @@ h2 {
     padding-bottom: 2%;
 }
 
+.bold {
+    font-weight: bolder;
+}
+
 .gallery {
     display: flex;
     flex-direction: column;
@@ -105,6 +109,7 @@ footer {
     img {
         height: 400px;
     }
+}
 
 @media (min-width: 996px) {
     .container {
@@ -143,3 +148,4 @@ footer {
     .desc {
         font-size: 15px;
     }
+}
