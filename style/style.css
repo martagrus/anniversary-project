@@ -8,6 +8,7 @@ body {
     width: 100%;
     margin: 0 auto;
     background-color: #fef7f7;
+    padding-bottom: 2%;
 }
 
 nav a {
@@ -51,23 +52,25 @@ h2 {
     padding-bottom: 2%;
 }
 
-.gallery {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 2%;
+.bold {
+    font-weight: bolder;
 }
 
-.gallery-0 {
+.gallery {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; 
+    padding-top: 2%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
 }
 
 img {
     height: 200px;
-    
 }
 
 .desc {
@@ -90,21 +93,27 @@ a:visited {
     text-decoration: none;
 }
 
+#year-1 {
+    margin-top: 2%;
+}
+
 footer {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    height: 50px;
+    height: 20px;
+    padding-top: 2%;
 }
 
 @media (min-width: 768px) {
     .container {
-      width: 760px;
+        width: 760px;
     }
 
     img {
         height: 400px;
     }
+}
 
 @media (min-width: 996px) {
     .container {
@@ -143,3 +152,8 @@ footer {
     .desc {
         font-size: 15px;
     }
+
+    footer {
+        height: 50px;
+    }
+}

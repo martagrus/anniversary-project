@@ -2,7 +2,7 @@
 https://martagrus.github.io/anniversary-project/
 
 ## Description
-Page was built as an exercise to learn how to code. It will be changed yearly and the JS will soon be applied.
+Page was built as an anniversary gift. It will be chaged yearly.
 
 ## Built with
-HTML, CSS
+HTML, CSS, JavaScript, Boostrap
