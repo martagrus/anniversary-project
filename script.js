@@ -11,8 +11,9 @@ prepareElements = () => {
     $days = document.getElementById('days');
     $hours = document.getElementById('hours');
     $minutes = document.getElementById('minutes');
-    $weddingDate = new Date(2018,06,30,16,0,0);
+    $weddingDate = new Date(2018,05,30,16,0,0);
     $today = new Date();
+    $anniversary = new Date(2020,05,30)
 }
 
 settingDates = () => {
@@ -24,7 +25,7 @@ settingDates = () => {
 }
 
 printElements = () => {
-    if ($today === new Date(2020,06,30)) {
+    if ($today === $anniversary || $today > $anniversary) {
         $year.innerHTML = $time;
     } else {
         $year.innerHTML = $time - 1
